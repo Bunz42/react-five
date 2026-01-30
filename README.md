@@ -6,7 +6,7 @@ The plan is simple:
 - Build the simplest project I can think of (this is a full stack framework so it's only fitting for the 1st app to be a TODO list).
 - Build 4 more projects, scaling up in difficulty.
 - Key skill: thinking in react (always draft the most bs high-level sketch I can produce of my apps before starting development).
-- Consult the official react docs to really understand everything
+- Consult the official react docs if I don't know what I'm doing (very often)
 
 Let's go.
 
