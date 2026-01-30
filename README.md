@@ -1,5 +1,5 @@
 # WTF-IS-REACT
-As my username suggests, I'm buns at coding, but I also think apps look cool 😈, so I wanna learn react efficiently (and by that I mean in a way where I can be as lazy as possible).
+As my username suggests, I'm buns at coding and have no idea what I'm doing, but I also think apps look cool 😈, so I wanna learn react efficiently (and by that I mean in a way where I can be as lazy as possible).
 
 The plan is simple: 
 - Use an LLM to teach me the fundamentals about react I need to know to get started on my very 1st react project.
