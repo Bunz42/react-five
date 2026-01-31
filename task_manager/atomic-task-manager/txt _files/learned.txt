@@ -1,0 +1,34 @@
+React learned from this project:
+1. Components:
+    - Break apps into components
+    - In this case, the components are:
+        - Overarching 'App' component
+        - Buttons that filter by category
+        - Task list
+        - Input box that the user will use to create their own tasks (the task form)
+        - Individual tasks themselves
+        - Category manager
+    - Create these components as functions that return html code to be rendered
+
+2. Props:
+    - Basically the same as 'properties' in any OOP language
+    - Comes in the form of a parameter passed into a component when it's instantiated
+    - You can access these 'props' from inside the component and do stuff with their values
+
+3. The 'map()' and 'filter()' functions:
+    - 'map()' just 'maps'/'transforms' an array of stuff into an array of react elements
+    - 'filter()' just keeps/removes array elements based on a condition
+    
+
+4. State (controlled components):
+    - changing a components "state" basically updates it on the scrn
+    - regular variables dont work cuz local variables dont persist b/w
+    renders, and changes to local vars wont trigger renders either in
+    react
+    - So, to update a component, you need to find a way to retain the data b/w renders
+    and also a way to re-render the component with the new data
+    - so you need a special react hook called useState, that provides you with
+    a 'state var' to retain the data, and a 'state setter' to update the state var
+    - 'useState()' returns an array with two items: the state var and state setter
+    - recap: use a state var when you want to 'remember' smth b/w renders
+

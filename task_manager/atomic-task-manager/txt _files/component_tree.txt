@@ -1,0 +1,13 @@
+Component Tree
+
+App => main container/component
+    |
+    CategoryFilter => Select to filter tasks by category
+    |
+    TaskForm => input field for the user to enter task names, category, and priority
+    |
+    TaskList => Maps through the list of tasks
+    |   |
+    |   TaskItem => a separate individual task component with a delete and edit button
+    |
+    CategoryManager => list of categories with an option to delete a given category
