@@ -6,6 +6,7 @@ A focused Todo application built to master the fundamental building blocks of Re
 * **Task Management:** Create and organize tasks with specific names and priority levels.
 * **Dynamic Categories:** Categorize tasks to maintain a clean workspace.
 * **Linked Deletion:** Implements logic where deleting a category automatically removes all associated tasks, demonstrating "lifting state up" and data synchronization.
+* **Cool UI:** I added some CSS styling to make it look cool.
 
 ## 🧠 Learning Objectives
 The primary goal of this project is to gain hands-on experience with:
