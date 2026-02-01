@@ -1,16 +1,29 @@
-# React + Vite
+Atomic Task Manager
+A focused Todo application designed to master the fundamentals of React, specifically one-way data flow and state lifting.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Key Features
+Atomic Task Management: Create and track tasks with specific priority levels.
 
-Currently, two official plugins are available:
+Category Systems: Organize tasks into custom categories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Twist (Linked Deletion): Deleting a category automatically cascades and removes all associated tasks, demonstrating complex state management.
 
-## React Compiler
+🏗️ Architecture
+This project follows a "Thinking in React" approach with a clear component hierarchy:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+App: The central "Source of Truth" for tasks and categories.
 
-## Expanding the ESLint configuration
+TaskForm: A controlled component for capturing user input.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+TaskList & TaskItem: Dynamic list rendering with custom keys.
+
+CategoryManager & Filter: Tools for managing and viewing the task ecosystem.
+
+🛠️ Core Concepts Explored
+useState: Managing the lifecycle of tasks and categories.
+
+Props: Passing data down through the component tree.
+
+State Lifting: Coordinating logic between sibling components like the CategoryManager and TaskList.
+
+Immutability: Handling state updates safely using the spread operator.
