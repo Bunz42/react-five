@@ -19,7 +19,6 @@ React learned from this project:
     - 'map()' just 'maps'/'transforms' an array of stuff into an array of react elements
     - 'filter()' just keeps/removes array elements based on a condition
     
-
 4. State (controlled components):
     - changing a components "state" basically updates it on the scrn
     - regular variables dont work cuz local variables dont persist b/w
