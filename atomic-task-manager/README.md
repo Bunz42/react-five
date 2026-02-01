@@ -1,16 +1,20 @@
-# React + Vite
+# Atomic Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A focused Todo application built to master the fundamental building blocks of React development. This project serves as a practical exploration of state architecture and the "Thinking in React" philosophy.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+* **Task Management:** Create and organize tasks with specific names and priority levels.
+* **Dynamic Categories:** Categorize tasks to maintain a clean workspace.
+* **Linked Deletion:** Implements logic where deleting a category automatically removes all associated tasks, demonstrating "lifting state up" and data synchronization.
+* **Cool UI:** I added some CSS styling to make it look cool.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Learning Objectives
+The primary goal of this project is to gain hands-on experience with:
+* **useState:** Managing the lifecycle of tasks and categories.
+* **Props:** Implementing one-way data flow through the component tree.
+* **Controlled Components:** Connecting form inputs to React state.
+* **List Rendering:** Mapping through data arrays using unique keys for performance.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+* **Framework:** React
+* **Build Tool:** Vite (for a fast, modern development experience)
