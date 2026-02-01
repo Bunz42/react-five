@@ -1,29 +1,19 @@
-Atomic Task Manager
-A focused Todo application designed to master the fundamentals of React, specifically one-way data flow and state lifting.
+# Atomic Task Manager
 
-🚀 Key Features
-Atomic Task Management: Create and track tasks with specific priority levels.
+A focused Todo application built to master the fundamental building blocks of React development. This project serves as a practical exploration of state architecture and the "Thinking in React" philosophy.
 
-Category Systems: Organize tasks into custom categories.
+## 🚀 Key Features
+* **Task Management:** Create and organize tasks with specific names and priority levels.
+* **Dynamic Categories:** Categorize tasks to maintain a clean workspace.
+* **Linked Deletion:** Implements logic where deleting a category automatically removes all associated tasks, demonstrating "lifting state up" and data synchronization.
 
-The Twist (Linked Deletion): Deleting a category automatically cascades and removes all associated tasks, demonstrating complex state management.
+## 🧠 Learning Objectives
+The primary goal of this project is to gain hands-on experience with:
+* **useState:** Managing the lifecycle of tasks and categories.
+* **Props:** Implementing one-way data flow through the component tree.
+* **Controlled Components:** Connecting form inputs to React state.
+* **List Rendering:** Mapping through data arrays using unique keys for performance.
 
-🏗️ Architecture
-This project follows a "Thinking in React" approach with a clear component hierarchy:
-
-App: The central "Source of Truth" for tasks and categories.
-
-TaskForm: A controlled component for capturing user input.
-
-TaskList & TaskItem: Dynamic list rendering with custom keys.
-
-CategoryManager & Filter: Tools for managing and viewing the task ecosystem.
-
-🛠️ Core Concepts Explored
-useState: Managing the lifecycle of tasks and categories.
-
-Props: Passing data down through the component tree.
-
-State Lifting: Coordinating logic between sibling components like the CategoryManager and TaskList.
-
-Immutability: Handling state updates safely using the spread operator.
+## 🛠️ Tech Stack
+* **Framework:** React
+* **Build Tool:** Vite (for a fast, modern development experience)
