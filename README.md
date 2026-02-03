@@ -11,11 +11,11 @@ The plan is simple:
 
 Let's go.
 
-![Thumbs up](https://media.tenor.com/eqkDbDipxSMAAAAM/cats.gif)
+![Thumbs up](./funny-imgs/cat-thumbs-up.gif)
 
 Progress:
 1. TODO List App : complete
 2. Crypto Dash Board : in progress (this project was MUCH longer than the 1st one, development is hard...)
-<img src="https://scontent.fyto3-1.fna.fbcdn.net/v/t1.15752-9/577247105_2007996893266789_2418862530380399342_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=QKcQhetub-cQ7kNvwHe8qHQ&_nc_oc=Adm_fLvXVSh6lQrKE6_jIJ4q_8GXr6lBCfqL9SP-rZaVCIVxuONfS53fIgCfcp1NwBlukItN89zNG65vAnnTntlH&_nc_zt=23&_nc_ht=scontent.fyto3-1.fna&oh=03_Q7cD4gE2Mmk_JiFDFnTDn6Pz2Oh2pKnDMxZKnGG0wCrOKU3OXw&oe=69A8C0B2" width="200">
+<img src="./funny-imgs/tired-dog.jpg" width="200">
 
 
