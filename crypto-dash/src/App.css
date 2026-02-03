@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 1);
+  background-color: #32353e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-bar {
+  display: flex;
+  background-color: #1d2027;
+  border-radius: 12px;
+  overflow: hidden;
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+}
+
+.search-bar input::placeholder {
+  color: #666;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  padding: 0 1rem;
+  color: #888;
+  width: 600px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.search-bar button {
+  background: transparent;
+  border: none;
+  transition: all 0.3s;
+  padding: 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar button:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.search-icon {
+  width: 23px;
+  height: 23px;
+  filter: brightness(0) invert(1);
+}
+
+.search-bar button:hover .search-icon {
+  opacity: 1;
+}
+
+@keyframes shake {
+  0% { transform: scale(1.1) rotate(0deg); }
+  10% { transform: scale(1.1) rotate(-10deg); }
+  20% { transform: scale(1.1) rotate(10deg); }
+  30% { transform: scale(1.1) rotate(-10deg); }
+  40% { transform: scale(1.1) rotate(10deg); }
+  50% { transform: scale(1.1) rotate(0deg); }
+  100% { transform: scale(1.1) rotate(0deg); }
+}
+
+.notification-btn {
+  background-color: #1d2027;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 48px;
+  width: 48px;
+}
+
+.notification-btn:hover {
+  animation: shake 2s ease-in-out infinite;
+}
+
+.notification-icon {
+  width: 23px;
+  height: 23px;
+  filter: brightness(0) invert(1);
+}
+
+.account-dropdown {
+  position: relative;
+}
+
+.account-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: 48px;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.account-button:hover {
+  background-color: #1d2027;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.arrow {
+  font-size: 0.8rem;
+  color: #fff;
+  transition: transform 0.2s;
+  margin-left: 0.25rem;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  background-color: #1d2027;
+  border-radius: 12px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: inherit;
+  font-size: 1.2rem
+}
+
+.dropdown-menu button:hover {
+  background-color: #4b4b4b;
+}
+
+.dropdown-menu button:not(:last-child) {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.coin-card {
+  background-color: #1d2027;
+  border-radius: 20px;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 380px;
+  margin: 1rem;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
+}
+
+.coin-card:hover {
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}
+
+.coin-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.coin-icon-wrapper {
+  background-color: #453f3f;
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.coin-info {
+  flex: 1;
+}
+
+.coin-info h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.coin-short {
+  margin: 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.trend-arrow{
+  font-size: 1.2rem;
+  margin-left: 7rem;
+}
+
+.trend-arrow.up {
+  color:#00ff00;
+}
+
+.trend-arrow.down {
+  color: #f36e10;
+}
+
+.coin-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-price-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.coin-price h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.change {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.change.positive {
+  color: #00ff00;
+}
+
+.change.negative {
+  color: #f36e10;
+}
+
+.watchlist {
+  display: flex;
+  gap: 0;
+  padding: 0.2rem;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.watchlist::-webkit-scrollbar {
+  height: 8px;
+}
+
+.watchlist::-webkit-scrollbar-track {
+  background: #2a2a2a;
+  border-radius: 10px;
+}
+
+.watchlist::-webkit-scrollbar-thumb {
+  background: #646cff;
+  border-radius: 10px;
+}
+
+.watchlist::-webkit-scrollbar-thumb:hover {
+  background: #535bf2;
+}
+
+.coin-grid {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.coin-table {
+  width: 100%;
+  background-color: #1d2027;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.coin-table thead {
+  background-color: #1a1a1a;
+}
+
+.coin-table th {
+  padding: 1.2rem;
+  text-align: left;
+  font-weight: 600;
+  color: #888;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.coin-table tbody tr:hover {
+  background-color: #14131350;
+}
+
+.coin-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.coin-table td {
+  padding: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.coin-cell {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.table-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.coin-cell > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  font-weight: 600;
+  color: #fff;
+}
+
+.coin-symbol {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.price-cell {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.change-cell {
+  font-weight: 600;
+}
+
+.change-cell.positive {
+  color: #00ff00;
+}
+
+.change-cell.negative {
+  color: #f36e10;
+}
+
+.market-cap-cell {
+  color: #888;
+}
+
+.watchlist-btn {
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  border: 1px solid #646cff;
+  background-color: #6c6cff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.watchlist-btn:hover {
+  background-color: #646cff;
+  color: #fff;
+  border-color: white;
+}
+
+.watchlist-btn.in-watchlist {
+  border-color: #c10000;
+  background-color: #c10000;
+}
+
+.watchlist-btn.in-watchlist:hover {
+  border-color: white;
+}

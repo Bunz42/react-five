@@ -1,0 +1,25 @@
+Component Tree
+
+App: main container/component
+    |
+    Sidebar: a sidebar on the left to access different parts of the app
+    |
+    Header: title and a "Last Updated" timestamp
+    |   |
+    |   SearchBar: a search bar to filter the main list
+    |   |
+    |   NotificationBell: a section to view the user's notifications
+    |   |
+    |   AccountOptions: a dropdown menu to access the user's account information and options    
+    |  
+    Watchlist: horizontal scroll or grid showing the coins saved to a local data storage
+    |   |
+    |   CoinCard: simplified version of the coin data
+    |
+    CoinGrid: main container for the market data
+        |
+        TableHeader: labels for price, change, etc.
+        |
+        CoinRow: individual rows for each coin
+            |
+            WatchButton: toggle button to add/remove from the watchlist

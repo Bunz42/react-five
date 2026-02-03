@@ -1,0 +1,2 @@
+1. some() function:
+    - checks if at least one element in an array follows a condition
