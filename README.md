@@ -11,6 +11,7 @@ The plan is simple:
 
 Progress:
 1. TODO List App : complete
+2. Crypto Dash Board : in progress
 
 Let's go.
 
