@@ -1,6 +1,8 @@
 # Atomic Task Manager
-
 A focused Todo application built to master the fundamental building blocks of React development. This project serves as a practical exploration of state architecture and the "Thinking in React" philosophy.
+
+![App Preview](./screenshots/ss1.png)
+![App Preview](./screenshots/ss2.png)
 
 ## 🚀 Key Features
 * **Task Management:** Create and organize tasks with specific names and priority levels.

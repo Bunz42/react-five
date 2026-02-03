@@ -9,6 +9,9 @@ The plan is simple:
 - In each project, I'll add a txt file where I just dump all my thoughts about new skills/info I learned in the process of building each app.
 - Consult the official react docs if I don't know what I'm doing (very often)
 
+Progress:
+1. TODO List App : complete
+
 Let's go.
 
 ![Thumbs up](https://media.tenor.com/eqkDbDipxSMAAAAM/cats.gif)
