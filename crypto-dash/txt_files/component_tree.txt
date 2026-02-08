@@ -3,15 +3,17 @@ Component Tree
 App: main container/component
     |
     Sidebar: a sidebar on the left to access different parts of the app
-    |
+    |   
     Header: title and a "Last Updated" timestamp
     |   |
     |   SearchBar: a search bar to filter the main list
     |   |
     |   NotificationBell: a section to view the user's notifications
-    |   |
-    |   AccountOptions: a dropdown menu to access the user's account information and options    
-    |  
+    |       |
+    |       NotificationPanel: the panel to view notifications    
+    |
+    Portfolio: section for users stock portfolio
+    |
     Watchlist: horizontal scroll or grid showing the coins saved to a local data storage
     |   |
     |   CoinCard: simplified version of the coin data

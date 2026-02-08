@@ -1,2 +1,9 @@
 1. some() function:
     - checks if at least one element in an array follows a condition
+
+2. useEffect() hook:
+    - allows react apps to connect to external services by enabling code to be run after rendering
+
+3. localStorage() property:
+    - Not react exclusive, but it's commonly used with react hooks like useState and useEffect
+    - Allows you to save data to the browser's local storage so you can retain it between refreshes
