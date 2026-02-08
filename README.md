@@ -15,7 +15,7 @@ Let's go.
 
 Progress:
 1. TODO List App : complete
-2. Crypto Dash Board : in progress (this project was MUCH longer than the 1st one, development is hard...)
+2. Crypto Dash Board : complete (this project was MUCH longer than the 1st one, development is hard...)
 <img src="./funny-imgs/tired-dog.jpg" width="200">
 
-
+3. Project 3: in progress
