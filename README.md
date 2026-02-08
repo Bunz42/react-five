@@ -20,4 +20,5 @@ Progress:
 
 3. E-Commerce App: in progress
 
-Note: after this point, I'm going to be expanding my knowledge further to next.js because I feel like it
+Note: after this point, I'm going to be expanding my knowledge further to next.js because I feel like it, so the next two projects will involve next.js. Also,
+I want to start incorporating some legit backends into my last two projects, and maybe some legit deployment as well.
