@@ -1,16 +1,50 @@
-# React + Vite
+# CryptoDash 📈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Cryptocurrency Dashboard** *Project 2 of 5 in my React Learning Series*
 
-Currently, two official plugins are available:
+![CryptoDash Screenshot](./src/assets/dashboard-preview.png)
+*(Note: Replace the path above with your actual screenshot path)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About The Project
 
-## React Compiler
+CryptoDash is a real-time cryptocurrency dashboard built to track market trends for top digital assets. This project was designed to master **asynchronous data handling** and **side effects** in React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Unlike a static Todo list, this app interacts with the outside world. It fetches live market data, updates automatically to reflect price changes, and persists user preferences even after the browser is closed.
 
-## Expanding the ESLint configuration
+### 🌟 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Live Market Data:** Fetches real-time prices, market caps, and 24h trends using the [CoinGecko API](https://www.coingecko.com/en/api).
+* **The "Pulse" (Auto-Refresh):** Implemented a polling mechanism that automatically updates data every 60 seconds without user intervention.
+* **Persistent Watchlist:** Users can "Watch" specific coins. This list is saved to `localStorage`, so your favorites remain pinned even after refreshing the page.
+* **Smart Search:** Real-time filtering allows users to instantly find coins by name.
+* **Robust Error Handling:** Gracefully handles API rate limits (HTTP 429) and network failures with user-friendly error messages.
+
+## 🛠️ Technologies Used
+
+* **Framework:** React 18 (via Vite)
+* **Styling:** CSS3 (Custom Grid & Flexbox layouts)
+* **State Management:** React `useState` & `useEffect` hooks
+* **Data Source:** CoinGecko Public API
+
+## 🧠 Key Learnings & Concepts
+
+This project focused on moving beyond static UI into dynamic, data-driven applications.
+
+### 1. Asynchronous Data Fetching
+Learned to manage the "Loading," "Success," and "Error" states of an application.
+```javascript
+useEffect(() => {
+  const fetchCoins = async () => {
+    try {
+      setLoading(true);
+      const response = await fetch(API_URL);
+      const data = await response.json();
+      setCoins(data);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+  fetchCoins();
+}, []);
