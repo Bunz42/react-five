@@ -19,3 +19,5 @@ Progress:
 <img src="./funny-imgs/tired-dog.jpg" width="200">
 
 3. E-Commerce App: in progress
+
+Note: after this point, I'm going to be expanding my knowledge further to next.js because I feel like it
