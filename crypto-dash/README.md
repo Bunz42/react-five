@@ -2,8 +2,9 @@
 
 **Live Cryptocurrency Dashboard** *Project 2 of 5 in my React Learning Series*
 
-![CryptoDash Screenshot](./src/assets/dashboard-preview.png)
-*(Note: Replace the path above with your actual screenshot path)*
+![CryptoDash Screenshot 1](./screenshots/ss1.png)
+![CryptoDash Screenshot 2](./screenshots/ss2.png)
+![CryptoDash Screenshot 3](./screenshots/ss3.png)
 
 ## 📖 About The Project
 
