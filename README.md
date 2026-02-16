@@ -24,7 +24,7 @@ These five projects start easy and scale up in difficulty. For each project, I p
 **The Workflow:**
 1.  **Concept:** High-level idea.
 2.  **Sketch:** Component hierarchy and state flow.
-3.  **Brain Dump:** A raw `.txt` file containing implementation strategy.
+3.  **Brain Dump:** A raw `.txt` file containing my thoughts.
 4.  **Code:** Execution.
 
 <div align="center">
