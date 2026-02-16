@@ -1,4 +1,4 @@
-# WTF-IS-REACT
+# REACT-FIVE
 As my username suggests, I'm buns at coding and have no idea what I'm doing, but I also think apps look cool 😈, so I wanna learn react efficiently (and by that I mean in a way where I can be as lazy as possible).
 
 The plan is simple: 
