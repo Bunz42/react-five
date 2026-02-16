@@ -1,24 +1,81 @@
+<div align="center">
+
 # REACT-FIVE
-As my username suggests, I'm buns at coding and have no idea what I'm doing, but I also think apps look cool 😈, so I wanna learn react efficiently (and by that I mean in a way where I can be as lazy as possible).
+### A Progressive Web Development Journey
 
-The plan is simple: 
-- Use an LLM to teach me the fundamentals about react I need to know to get started on my very 1st react project.
-- Build the simplest project I can think of (this is a full stack framework so it's only fitting for the 1st app to be a TODO list).
-- Build 4 more projects, scaling up in difficulty.
-- Key skill: thinking in react (always draft the most bs high-level sketch I can produce of my apps before starting development).
-- In each project, I'll add a txt file where I just dump all my thoughts about new skills/info I learned in the process of building each app.
-- Consult the official react docs if I don't know what I'm doing (very often)
+<p>
+I was bored so I decided to build 5 apps to practice my web dev skills 😈.
+</p>
 
-Let's go.
+<p align="center">
+  <img src="https://img.shields.io/badge/Stack-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Stack-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Frontend_Mastery-red?style=for-the-badge" />
+</p>
 
-![Thumbs up](./funny-imgs/cat-thumbs-up.gif)
+</div>
 
-Progress:
-1. TODO List App : complete
-2. Crypto Dash Board : complete (this project was MUCH longer than the 1st one, development is hard...)
-<img src="./funny-imgs/tired-dog.jpg" width="200">
+---
 
-3. E-Commerce App: in progress
+## The Objective
 
-Note: after this point, I'm going to be expanding my knowledge further to next.js because I feel like it, so the next two projects will involve next.js. Also,
-I want to start incorporating some legit backends into my last two projects, and maybe some legit deployment as well.
+These five projects start easy and scale up in difficulty. For each project, I practice "thinking in React" by drafting a high-level sketch with labelled components before writing a single line of code.
+
+**The Workflow:**
+1.  **Concept:** High-level idea.
+2.  **Sketch:** Component hierarchy and state flow.
+3.  **Brain Dump:** A raw `.txt` file containing implementation strategy.
+4.  **Code:** Execution.
+
+<div align="center">
+  <br />
+  <img src="./funny-imgs/cat-thumbs-up.gif" width="200" alt="Thumbs up">
+  <p><em>Let's go.</em></p>
+  <br />
+</div>
+
+---
+
+## Project Status Matrix
+
+| ID | Project Name | Core Complexity | Tech Stack | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **Todo List App** | State Management basics | Vanilla React | **COMPLETE** |
+| **02** | **Crypto Dashboard** | Live API Data & Asynch | Vanilla React | **COMPLETE** |
+| **03** | **E-Commerce Store** | Routing & Cart Logic | **Next.js** | **IN PROGRESS** |
+| **04** | **Squad Chat** | Real-time Sockets | Next.js | *Pending* |
+| **05** | **Analytics Engine** | Data Visualization | Next.js | *Pending* |
+
+---
+
+## Dev Log & Architecture Notes
+
+### Phase 1: The Foundation (Projects 1-2)
+Started with Vanilla React to solidify hooks and state management fundamentals.
+
+> **Retrospective:** The Crypto Dashboard was significantly more complex than anticipated. Handling live market data required robust `useEffect` cleanup and error handling.
+
+<div align="center">
+  <img src="./funny-imgs/tired-dog.jpg" width="300" alt="Post-coding exhaustion">
+  <p><em>Current mood after finishing the Dashboard</em></p>
+</div>
+
+### Phase 2: The Migration (Projects 3-5)
+**Major Shift:** Moving from Vanilla React to **Next.js**.
+
+I realized that for the E-Commerce store and future enterprise apps, I need better routing, server-side rendering, and structure. I am also considering deploying the final two projects to Vercel to simulate a production environment.
+
+---
+
+## Repository Structure
+
+Each project folder contains a specific `implementation-notes.txt` file detailing the thought process behind the code.
+
+```bash
+/
+├── 01-todo-list/
+├── 02-crypto-dash/       # Live API integration
+├── 03-ecommerce-store/   # <--- CURRENT FOCUS
+├── 04-squad-chat/
+├── 05-analytics-engine/
+└── funny-imgs/
