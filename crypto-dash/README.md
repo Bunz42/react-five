@@ -1,6 +1,6 @@
 # CryptoDash
 
-**Live Cryptocurrency Dashboard** *Project 2 of 5 in my React Learning Series*
+**Live Cryptocurrency Dashboard** *Project 2 of 5 in my React Five Series*
 
 ![CryptoDash Screenshot 1](./screenshots/ss1.png)
 ![CryptoDash Screenshot 2](./screenshots/ss2.png)
