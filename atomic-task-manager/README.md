@@ -1,6 +1,8 @@
 # Atomic Task Manager
 A focused Todo application built to master the fundamental building blocks of React development. This project serves as a practical exploration of state architecture and the "Thinking in React" philosophy.
 
+*Project 1 of 5 in my React Five Series*
+
 ![App Preview](./screenshots/ss1.png)
 ![App Preview](./screenshots/ss2.png)
 
