@@ -15,8 +15,6 @@ Building 5 apps to practice my web dev skills.
 
 </div>
 
----
-
 ## The Objective
 
 These five projects start easy and scale up in difficulty. For each project, I practice "thinking in React" by drafting a high-level sketch with labelled components before writing a single line of code.
