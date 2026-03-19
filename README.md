@@ -36,15 +36,15 @@ These five projects start easy and scale up in difficulty. For each project, I p
 
 ---
 
-## Project Status Matrix
+## Project Status
 
 | ID | Project Name | Core Complexity | Tech Stack | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **01** | **Todo List App** | State Management basics | Vanilla React | **COMPLETE** |
-| **02** | **Crypto Dashboard** | Live API Data & Asynch | Vanilla React | **COMPLETE** |
-| **03** | **E-Commerce Store** | Routing & Cart Logic | **Next.js** | **IN PROGRESS** |
-| **04** | **Squad Chat** | Real-time Sockets | Next.js | *Pending* |
-| **05** | **Analytics Engine** | Data Visualization | Next.js | *Pending* |
+| **01** | **Todo List App** | State Management | **COMPLETE** |
+| **02** | **Crypto Dashboard** | API | **COMPLETE** |
+| **03** | **Github Random Repo** | API Integration | **IN PROGRESS** |
+| **04** | **Weather Web App** | API | *Pending* |
+| **05** | **Scalable E-Commerce Platform** | API | Next.js | *Pending* |
 
 ---
 
