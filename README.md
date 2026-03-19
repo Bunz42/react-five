@@ -58,7 +58,7 @@ Solidify hooks and state management fundamentals.
 
 ## Repository Structure
 
-Each project folder contains a specific `implementation-notes.txt` file detailing the thought process behind the code.
+Each project folder contains `component_tree.txt` and `learned.txt` files for dev logging.
 
 ```bash
 /
